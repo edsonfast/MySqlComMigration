@@ -25,5 +25,6 @@ Instalar o Connector/NET 8.0.26 usando o MySql Installer
 
 "NotSupportedException: Versions of MySQL prior to 5.6 are not currently supported"
 https://stackoverflow.com/questions/71621658/versions-of-mysql-prior-to-5-6-are-not-currently-supported
-Incluir version=9.9.0 no my.ini grupo [mysqld]
+https://bugs.mysql.com/bug.php?id=107452
+Por enquanto incluir version=9.9.0 no my.ini grupo [mysqld]
 
