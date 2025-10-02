@@ -1,4 +1,4 @@
-﻿# Projeto Teste Entity Framework Code First com MySql/Maria DB 10.6
+﻿# Projeto Teste Entity Framework Code First com MySql/Maria DB 10.6 e Maria DB 11.1.2
 
 Referencias:
 https://devmais.wordpress.com/2015/02/26/configurando-mysql-entityframework-code-first-passo-a-passo/
@@ -25,4 +25,9 @@ Instalar o Connector/NET 8.0.26 usando o MySql Installer
 "NotSupportedException: Versions of MySQL prior to 5.6 are not currently supported"
 https://stackoverflow.com/questions/71621658/versions-of-mysql-prior-to-5-6-are-not-currently-supported
 Incluir version=9.9.0 no my.ini grupo [mysqld]
+
+
+"Object cannot be cast from DBNull to other types."
+https://stackoverflow.com/questions/74060289/mysqlconnection-open-system-invalidcastexception-object-cannot-be-cast-from-d
+Criado classe Interceptor e referenciado na string de conexão
 

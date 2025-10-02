@@ -157,6 +157,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="CustomizedMySqlMigrationSqlGenerator.cs" />
+    <Compile Include="Interceptor.cs" />
     <Compile Include="Migrations\201509041716027_MigrationV1.cs" />
     <Compile Include="Migrations\201509041716027_MigrationV1.Designer.cs">
       <DependentUpon>201509041716027_MigrationV1.cs</DependentUpon>
