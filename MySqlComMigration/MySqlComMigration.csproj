@@ -55,7 +55,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>2027A1ADB5C6A3B89166D71F31D5C4A69CF08A55</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>3B00E2EF2E00FF6B7E44E88F5B2C44C1D3A4DC76</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>MySqlComMigration_TemporaryKey.pfx</ManifestKeyFile>
@@ -144,6 +144,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CustomizedMySqlMigrationSqlGenerator.cs" />
     <Compile Include="Migrations\201509041716027_MigrationV1.cs" />
     <Compile Include="Migrations\201509041716027_MigrationV1.Designer.cs">
       <DependentUpon>201509041716027_MigrationV1.cs</DependentUpon>

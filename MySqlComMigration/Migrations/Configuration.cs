@@ -10,7 +10,8 @@ namespace MySqlComMigration.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            SetSqlGenerator("MySql.Data.MySqlClient", new MySql.Data.EntityFramework.MySqlMigrationSqlGenerator());
+            //SetSqlGenerator("MySql.Data.MySqlClient", new MySql.Data.EntityFramework.MySqlMigrationSqlGenerator());
+            SetSqlGenerator("MySql.Data.MySqlClient", new CustomizedMySqlMigrationSqlGenerator());
 
             // Gerar nova atualização
             // Add-Migration MigrationV2
